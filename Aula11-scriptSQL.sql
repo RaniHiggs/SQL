@@ -5,7 +5,7 @@ create database AULA11;
 /* listando os bancos de dados gerenciados pelo MySQL */
 show databases;
 
-/* acessando o banco de dados criado para a atividade */
+/* acessando o banco de dados criado */
 use AULA11;
 
 /* criando a tabela SETOR no banco de dados AULA11 */
@@ -40,7 +40,7 @@ foreign key(cod_funcionario) references FUNCIONARIO(cpf)
 /* listando as tabelas no banco de dados AULA11 */
 show tables;
 
-/* verificando a estrutura (atritubos) de uma tabela */
+/* verificando os atritubos de uma tabela */
 describe SETOR;
 
 describe FUNCIONARIO;
